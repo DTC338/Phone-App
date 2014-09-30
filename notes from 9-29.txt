@@ -1,0 +1,13 @@
+1) WSU Orientation App
+2) Strawpoll
+3) Locative narration, full of rich images, video, audio, and maps.
+4) Organization app (for physical items?) potentially with geotagging. Picture taking, QR codes, tags, folders, some kind of sharing.
+5) Coffee shop app - it would show you the 5-10 closest, non-chain coffee shops near you, and then show you the best, most visited by you, etc. Include social share and be "game" like to visit more coffee shops than your friends, etc.
+6) Hair salon app (c) Lucas Wiseman
+7) Gender neutral bathrooms (GNB), disability access, computer labs.
+	-StrawPoll integration
+	-Dissemination of poll url to GNB inquirers.
+	-Geotag location of votes, demographics
+	(From what I remember)
+	-Support for events (some kind of calender?)
+	-User submitted stories or comments
