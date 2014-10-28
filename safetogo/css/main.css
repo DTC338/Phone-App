@@ -1,0 +1,31 @@
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px
+}
+
+#map-canvas {
+	position: relative;
+	z-index: 0;
+}
+
+#menu {
+	background: #fff;
+	border-top: 2px solid #3fbc3b;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+		bottom: 0px;
+	z-index: 1;
+}
+
+#top {
+	background: url("../img/logo.png") #42B23B no-repeat;
+	background-position: 50% 0px;
+	border-top: 15px solid #000;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+		top: 0px;
+	z-index: 2;
+}
