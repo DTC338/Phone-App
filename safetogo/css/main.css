@@ -1,11 +1,40 @@
 html, body, #map-canvas {
 	height: 100%;
 	margin: 0px;
+	overflow: hidden;
 	padding: 0px
 }
 
-#map-canvas {
+img.pad {
+	padding-right: 10px;
+}
+
+#buttons {
 	position: relative;
+	margin: 0 auto;
+	margin-top: 13px;
+	height: auto;
+	width: 160px;
+}
+
+#list-view {
+	background: #fff;
+	position: absolute;
+		left: 100%;
+		top: 0%;
+	height: 100%;
+	width: 100%;
+	padding-top: 70px;
+	padding-left: 15px;
+	z-index: 1;
+}
+
+#map-canvas {
+	position: absolute;
+		left: 0%;
+		top: 0%;
+	height: 100%;
+	width: 100%;
 	z-index: 0;
 }
 
@@ -14,18 +43,22 @@ html, body, #map-canvas {
 	border-top: 2px solid #3fbc3b;
 	height: 70px;
 	width: 100%;
+	padding-top: 0px;
 	position: fixed;
 		bottom: 0px;
-	z-index: 1;
+	z-index: 10;
 }
 
 #top {
 	background: url("../img/logo.png") #42B23B no-repeat;
-	background-position: 50% 0px;
-	border-top: 15px solid #000;
+	background-position: 50% 50%;
 	height: 70px;
 	width: 100%;
 	position: fixed;
 		top: 0px;
 	z-index: 2;
+}
+
+#triangle {
+	z-index: 10;
 }

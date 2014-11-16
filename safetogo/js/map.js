@@ -2,7 +2,7 @@ var map;
 
 function initialize() {
   var mapOptions = {
-    zoom: 18,
+    zoom: 16,
     disableDefaultUI: true
   };
   map = new google.maps.Map(document.getElementById('map-canvas'),
@@ -17,7 +17,7 @@ function initialize() {
       var infowindow = new google.maps.InfoWindow({
         map: map,
         position: pos,
-        content: 'you are here.'
+        content: 'do aleims even real?'
       });
 
       map.setCenter(pos);

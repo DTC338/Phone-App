@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,6 +8,9 @@
     <style>
       @import url("css/main.css");
     </style>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery2.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="js/map.js"></script>
   </head>
@@ -15,12 +19,29 @@
 
 
 
-    <div id="top"></div>
-    <div id="menu"></div>
+    <div id="top">
+      <div id="triangle"></div>
+    </div>
+    <div id="menu">
+      <div id="buttons">
+        <img src="img/map44color.png" alt="Map View" id="map-button" class="pad">
+        <img src="img/list44color.png" alt="List View" id="list-button" class="pad">
+        <img src="img/back44color.png" alt="Back" id="back-button">
+      </div>
+    </div>
     <div id="map-canvas"></div>
+    <div id="list-view">
+      <p>List view goes here.</p>
+      <p>List view goes here.</p>
+      <p>List view goes here.</p>
+      <p>List view goes here.</p>
+      <p>List view goes here.</p>
+      <p>List view goes here.</p>
+    </div>
 
 
 
   </body>
 
 </html>
+
